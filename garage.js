@@ -22,21 +22,15 @@ var addCar = function () {
 var displayCars = function () {
   console.log('in displayCars');
   console.log(garage);
-  //empty our ul element
+  //empty our div element
   document.getElementById('allCars').innerHTML="";
   //for each car in the garage, add a list item with year, make and modelIn
 for (var i = 0; i < garage.length; i++) {
   //car information(year,make, model)
-  var carInfo = garage[i].year + ' ' + garage[i].make + ' ' + garage[i].model;
-  //put carInfo inside a list item through a textNode
-  //create the li
-  var listItem = document.createElement('li');
-  // create textNode
-  var textNode = document.createTextNode( carInfo );
-  //append textNode as child li
-  listItem.appendChild( textNode );
-  // append list item to ul
-  document.getElementById('allCars').appendChild( listItem );
+  var carInfo = '<h2>' + garage[i].year + ' ' + garage[i].make + ' ' + garage[i].model+ '</h2><img src="' + garage[i].picURL + '">';
+
+  // append car info to output div
+  document.getElementById('allCars').innerHTML += carInfo;
   console.log( carInfo );
   }
 };//end display cars

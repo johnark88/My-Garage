@@ -13,4 +13,5 @@ Version/ Branches
 * .06 - display cars on DOM
 * .07 - clear the inputs
 * .08 - check for empties
- 
+* .09 - remove a displayed car (take out for a drive) 
+return said car back into garage -- store in variable - show "hey car is out".

@@ -11,4 +11,6 @@ Version/ Branches
 * .04 - push ca object into "garage" array
 * .05 - list cars on DOM
 * .06 - display cars on DOM
-* .07 to 1 -  
+* .07 - clear the inputs
+* .08 - check for empties
+ 

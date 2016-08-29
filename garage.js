@@ -26,15 +26,8 @@ var addCar = function () {
   }
 };//end addCar
 
-//function used to clear input fields
-var clearInputs = function () {
-  console.log('in clear inputs');
-  document.getElementById('yearIn').value='';
-  document.getElementById('makeIn').value='';
-  document.getElementById('modelIn').value='';
-  document.getElementById('picURLIn').value='';
-  document.getElementById('descriptionIn').value='';
-};
+//used to clear input fields
+document.getElementById('carInput').reset();
 
 
 var displayCars = function () {
@@ -61,4 +54,7 @@ garage.splice(index,1);
 displayCars();
 };//end take out
 
-//////aBah
+//Sets focus back to first text box in the form -- First Name.
+function setFocus() {
+    document.getElementById("yearIn").focus();
+}//end setFocus

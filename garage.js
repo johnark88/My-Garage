@@ -18,7 +18,7 @@ var addCar = function () {
     alert('Please fill in the required fields');
   }else{
     //continue if neede fields are filled in
-    clearInputs();
+    document.getElementById('carInput').reset();
     //push car into garage
     garage.push( newCar );
     //display cars
@@ -27,7 +27,7 @@ var addCar = function () {
 };//end addCar
 
 //used to clear input fields
-document.getElementById('carInput').reset();
+
 
 
 var displayCars = function () {

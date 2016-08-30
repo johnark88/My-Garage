@@ -1,29 +1,39 @@
-#carInput {
-  font-family: serif;
-  font-size: 20px;
+body {
+  margin: 10px;
+  background-color: #17c7a5;
 }
 
 h1 {
+  color: white;
   font-family: : serif;
   font-size: 25px;
 }
 
 input{
-  border-radius: 5px;
+  font-family: "Times New Roman";
+  border-radius: 9px;
   padding: 10px 10px 10px 10px;
+  font-size: 20px;
 }
 
 ::-webkit-input-placeholder {
-  color: blackl;
-  font-size: 12px;
+  color: black;
+  font-size: 15px;
 }
 
 button {
   color: black;
   font-family: serif;
-  background-color: white;
+  background-color: #5c97bf;
   border-radius: 20px;
   padding: 12px 12px 12px 12px;
   font-size: 15px;
   margin: 10px
+}
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
 }

@@ -1,0 +1,29 @@
+#carInput {
+  font-family: serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: : serif;
+  font-size: 25px;
+}
+
+input{
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+::-webkit-input-placeholder {
+  color: blackl;
+  font-size: 12px;
+}
+
+button {
+  color: black;
+  font-family: serif;
+  background-color: white;
+  border-radius: 20px;
+  padding: 12px 12px 12px 12px;
+  font-size: 15px;
+  margin: 10px
+}

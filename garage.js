@@ -54,6 +54,7 @@ garage.splice(index,1);
 displayCars();
 };//end take out
 
+
 //Sets focus back to first text box in the form -- First Name.
 function setFocus() {
     document.getElementById("yearIn").focus();

@@ -22,10 +22,10 @@ button {
   color: black;
   font-family: serif;
   background-color: white;
-  border-radius: 20px;
-  padding: 12px 12px 12px 12px;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
   font-size: 15px;
-  margin: 10px
+  margin: 10px;
 }
 h2 {
   color: black;

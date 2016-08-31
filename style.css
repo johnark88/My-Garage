@@ -1,7 +1,4 @@
-body {
-  margin: 10px;
-  background-color: #17c7a5;
-}
+
 
 h1 {
   color: white;
@@ -24,7 +21,7 @@ input{
 button {
   color: black;
   font-family: serif;
-  background-color: #5c97bf;
+  background-color: white;
   border-radius: 20px;
   padding: 12px 12px 12px 12px;
   font-size: 15px;

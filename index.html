@@ -2,8 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="garage.js" charset="utf-8"></script>
+    <script src="jquery-3.1.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="jqGarage.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>My Garage V1.0</title>
   </head>
   <body>
@@ -15,9 +17,13 @@
       <input type="text" id="picURLIn" value="" placeholder="Picture URL">
       <input type="text" id="descriptionIn" value="" placeholder="Description">
     </form>
-    <button onclick="addCar()">Park Car in Garage</button>
-    <div id="allCars">
-      <h2>None</h2>
-    </div>
+    <button id="addCar">Park Car in Garage</button>
+    <!-- <button id="hideInputs">Hide Inputs!</button> -->
+      <p>
+        Cars -
+      </p>
+      <div id="allCars">
+        None
+      </div>
   </body>
 </html>

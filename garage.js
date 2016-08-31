@@ -1,4 +1,5 @@
 console.log('sourced garage.js');
+
 //garage array
 var garage = [];
 
@@ -34,7 +35,8 @@ var displayCars = function () {
   console.log('in displayCars');
   console.log(garage);
   //empty our div element
-  document.getElementById('allCars').innerHTML="";
+  // document.getElementById('allCars').innerHTML="";
+  $('#allCars').html('');
   //for each car in the garage, add a list item with year, make and modelIn
 for (var i = 0; i < garage.length; i++) {
   //car information(year,make, model)
